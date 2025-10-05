@@ -35,8 +35,6 @@ The following page prompts the user to provide information about their robot con
 
 <img width="384" height="192" alt="define_empty" src="https://github.com/user-attachments/assets/792449fc-25f4-447a-85e0-8ea135f34cb6" />
 
-&nbsp;
-
 The `Has motor` option is intended for robots that have a spinning KE weapon (usually a brushless motor).  If selected, setup pages asking the user to define inputs for a throttle control and arming switch. 
 
 
