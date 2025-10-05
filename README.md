@@ -21,13 +21,13 @@ Kiwi-K Mixer edits the model currently active/selected in the EdgeTX environment
 
 To create a new model, select the `Setup New Robot` menu option on the home page.
 
-Kiwi-K Mixer will first warn the user about the potential risks of overwriting radio models.
-
 <img width="384" height="192" alt="kiwik_menu" src="https://github.com/user-attachments/assets/0969a41e-6d35-416b-ba20-c0073a2be8db" />
 
 <sup> *Main menu page of the Kiwi-K Mixer Lua script* </sup>
 
 &nbsp;
+
+Kiwi-K Mixer will first warn the user about the potential risks of overwriting radio models.
 
 The following page prompts the user to provide information about their robot configuration with the following options:
 
