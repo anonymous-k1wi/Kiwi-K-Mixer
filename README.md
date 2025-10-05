@@ -12,6 +12,7 @@ The Kiwi-K Mixer creates a user interface
 
 ## Using Kiwi-K Mixer
 The Kiwi-K Mixer can be accessed through the "Tools" menu of your transmitter.  The "Tools" menu can be accessed by long pressing the "Model" key.  On transmitters with a "SYS" key, the "SYS" key can be pressed instead to access the tools menu.
+
 ![tools_menu](https://github.com/user-attachments/assets/0867103b-be81-4df8-a830-be6f4613a8d5)
 
 Use the scroll wheel to navigate the list of tools, and select the "Kiwi-K Mixer" using the enter key.
