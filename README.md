@@ -23,8 +23,8 @@ To create a new model, select the `Setup New Robot` menu option on the home page
 
 Kiwi-K Mixer will first warn the user about the potential risks of overwriting radio models.
 
-![setup_warning](https://github.com/user-attachments/assets/8c954fa7-f802-4d60-993f-1bec6b936c52)
-<img width="128" height="64" alt="kiwik_menu" src="https://github.com/user-attachments/assets/30399e18-5155-4838-b44f-1f346fc3bf2b" />
+<img width="384" height="192" alt="kiwik_menu" src="https://github.com/user-attachments/assets/0969a41e-6d35-416b-ba20-c0073a2be8db" />
+
 
 The following page prompts the user to provide information about their robot configuration with the following options:
 `Has motor`
