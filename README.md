@@ -1,8 +1,8 @@
 # Kiwi-K Mixer
-Kiwi-K Mixer is a Lua script for EdgeTX transmitters designed to make setting up and editting model mixes quick and easy, tailored to combat robotics users.
+Kiwi-K Mixer is a Lua script for [EdgeTX](https://edgetx.org/) transmitters designed to make setting up and editting model mixes quick and easy, tailored to combat robotics users.
 
 ## Introduction
-Setting a model mix on an EdgeTX transmitter can be a less-than-intuitive process for beginners, and can still be time consuming for experienced users.  Kiwi-K (Quick) Mixer is an attempt to solve this problem utilizing the Lua scripting language built into EdgeTX Transmitters
+Setting a model mix on an EdgeTX transmitter can be a less-than-intuitive process for beginners, and can still be time consuming for experienced users.  Kiwi-K (Quick) Mixer is an attempt to solve this problem utilizing the [Lua](https://www.lua.org/about.html) scripting language built into EdgeTX Transmitters
 
 The Kiwi-K Mixer creates a user interface
 
@@ -25,7 +25,7 @@ Kiwi-K Mixer will first warn the user about the potential risks of overwriting r
 
 <img width="384" height="192" alt="kiwik_menu" src="https://github.com/user-attachments/assets/0969a41e-6d35-416b-ba20-c0073a2be8db" />
 
- 
+ ''
 
 The following page prompts the user to provide information about their robot configuration with the following options:
 `Has motor`
