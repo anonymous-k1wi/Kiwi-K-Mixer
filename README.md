@@ -25,6 +25,8 @@ Kiwi-K Mixer will first warn the user about the potential risks of overwriting r
 
 <img width="384" height="192" alt="kiwik_menu" src="https://github.com/user-attachments/assets/0969a41e-6d35-416b-ba20-c0073a2be8db" />
 
+*Main menu page of the Kiwi-K Mixer Lua script*
+
 &nbsp;
 
 The following page prompts the user to provide information about their robot configuration with the following options:
@@ -46,7 +48,6 @@ Based on the selected options on the model definition page, the following page w
 Due to limitations of the Kiwi-K Mixer implementation, custom output definitions are not supported at this time.  As the script does not store additional information about the model to an external file, it would not be possible for the script to remember a custom reciever wiring for each model.
 
 <img width="384" height="192" alt="wiring" src="https://github.com/user-attachments/assets/3ea5aca0-0d79-40f6-929a-e4a01157285c" />
--#Test
 
 &nbsp;
 
