@@ -46,6 +46,7 @@ Based on the selected options on the model definition page, the following page w
 Due to limitations of the Kiwi-K Mixer implementation, custom output definitions are not supported at this time.  As the script does not store additional information about the model to an external file, it would not be possible for the script to remember a custom reciever wiring for each model.
 
 <img width="384" height="192" alt="wiring" src="https://github.com/user-attachments/assets/3ea5aca0-0d79-40f6-929a-e4a01157285c" />
+-#Test
 
 &nbsp;
 
