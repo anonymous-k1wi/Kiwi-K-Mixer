@@ -19,8 +19,11 @@ Use the scroll wheel to navigate the list of tools, and select the "Kiwi-K Mixer
 Kiwi-K Mixer edits the model currently active/selected in the EdgeTX environment.  Kiwi-K Mixer will overwrite the active model when creating a new mix, so it is recommended to create a new model.  The name and first-page settings of the model are not touched by Kiwi-K Mixer, so the process of naming the radio model and binding recievers is not changed.
 
 To create a new model, select the `Setup New Robot` menu option on the home page.
+[kiwik_menu.bmp](https://github.com/user-attachments/files/22712727/kiwik_menu.bmp)
 
 Kiwi-K Mixer will first warn the user about the potential risks of overwriting radio models.
+[setup_warning.bmp](https://github.com/user-attachments/files/22712725/setup_warning.bmp)
+
 
 The following page prompts the user to provide information about their robot configuration with the following options:
 `Has motor`
