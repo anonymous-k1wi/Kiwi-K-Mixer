@@ -13,7 +13,6 @@ The Kiwi-K Mixer creates a user interface
 ## Using Kiwi-K Mixer
 The Kiwi-K Mixer can be accessed through the "Tools" menu of your transmitter.  The "Tools" menu can be accessed by long pressing the "Model" key.  On transmitters with a "SYS" key, the "SYS" key can be pressed instead to access the tools menu.
 
-![tools_menu](https://github.com/user-attachments/assets/0867103b-be81-4df8-a830-be6f4613a8d5)
 
 Use the scroll wheel to navigate the list of tools, and select the "Kiwi-K Mixer" using the enter key.
 
@@ -21,11 +20,10 @@ Use the scroll wheel to navigate the list of tools, and select the "Kiwi-K Mixer
 Kiwi-K Mixer edits the model currently active/selected in the EdgeTX environment.  Kiwi-K Mixer will overwrite the active model when creating a new mix, so it is recommended to create a new model.  The name and first-page settings of the model are not touched by Kiwi-K Mixer, so the process of naming the radio model and binding recievers is not changed.
 
 To create a new model, select the `Setup New Robot` menu option on the home page.
-[kiwik_menu.bmp](https://github.com/user-attachments/files/22712727/kiwik_menu.bmp)
 
 Kiwi-K Mixer will first warn the user about the potential risks of overwriting radio models.
-[setup_warning.bmp](https://github.com/user-attachments/files/22712725/setup_warning.bmp)
 
+![setup_warning](https://github.com/user-attachments/assets/8c954fa7-f802-4d60-993f-1bec6b936c52)
 
 The following page prompts the user to provide information about their robot configuration with the following options:
 `Has motor`
