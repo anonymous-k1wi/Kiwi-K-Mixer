@@ -28,8 +28,10 @@ Kiwi-K Mixer will first warn the user about the potential risks of overwriting r
 &nbsp;
 
 The following page prompts the user to provide information about their robot configuration with the following options:
+
 &nbsp;
 `Has motor`
+
 &nbsp;
 `Has servo`
 
