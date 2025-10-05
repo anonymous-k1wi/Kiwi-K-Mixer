@@ -25,7 +25,7 @@ Kiwi-K Mixer will first warn the user about the potential risks of overwriting r
 
 <img width="384" height="192" alt="kiwik_menu" src="https://github.com/user-attachments/assets/0969a41e-6d35-416b-ba20-c0073a2be8db" />
 
-
+ 
 
 The following page prompts the user to provide information about their robot configuration with the following options:
 `Has motor`
