@@ -28,7 +28,9 @@ Kiwi-K Mixer will first warn the user about the potential risks of overwriting r
 &nbsp;
 
 The following page prompts the user to provide information about their robot configuration with the following options:
+&nbsp;
 `Has motor`
+&nbsp;
 `Has servo`
 
 The `Has motor` option is intended for robots that have a spinning KE weapon (usually a brushless motor).  If selected, setup pages asking the user to define inputs for a throttle control and arming switch. 
