@@ -82,4 +82,14 @@ The next page prompts the user to input the forward/backward (straightline) and 
 The final page provides an "Exit" button for the setup, which will display a prompt to either save and exit or exit without saving.  If all inputs in the previous pages are not defined, the user will see the option to exit without saving.  To save and exit, *all* inputs must be properly defined in the proceeding pages.
 
 ## Editting an Existing Model
-To create a new model, select the `Update Settings` menu option on the home page.
+To edit an existing model, select the `Update Settings` menu option on the home page.
+
+&nbsp;
+
+Kiwi-K Mixer will first warn the user that robots must be set up by the Kiwi-K Mixer prior to being edited.  If a robot is not set up with the Kiwi-K Mixer first, it is not gauranteed to work with the editor (due to channel definitions).
+
+&nbsp;
+
+The editing page contains the following set of options based on some of the most common issues users run into when mixing a robot.  The following options are given.
+
+-[] test
