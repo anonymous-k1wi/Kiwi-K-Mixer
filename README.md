@@ -41,13 +41,13 @@ The following page prompts the user to provide information about their robot con
 
 <img width="384" height="192" alt="define_empty" src="https://github.com/user-attachments/assets/792449fc-25f4-447a-85e0-8ea135f34cb6" />
 
-<sup> *Model defintion page* </sup>
+<sup> *Robot defintion page* </sup>
 
 The `Has motor` option is intended for robots that have a spinning KE weapon (usually a brushless motor).  If selected, setup pages asking the user to define inputs for a throttle control and arming switch.  The `Has servo` option is intended for flipper/lifter robots that use a servo as their main actuator.  If required for the robot configuration, both options can be selected (i.e. for a hammersaw-style robot).
 
 <img width="384" height="192" alt="define_filled" src="https://github.com/user-attachments/assets/ea5304b1-d384-4297-8859-f843372d666f" />
 
-<sup> *Model definition page with both inputs selected* </sup>
+<sup> *Robot definition page with both inputs selected* </sup>
 
 &nbsp;
 
