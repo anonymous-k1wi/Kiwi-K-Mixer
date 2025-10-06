@@ -73,7 +73,7 @@ The next page prompts the user to input the forward/backward (straightline) and 
 
 &nbsp;
 
-The final page provides an "Exit" button for the setup, which will display a prompt to either save and exit or exit without saving.
-
+The final page provides an "Exit" button for the setup, which will display a prompt to either save and exit or exit without saving.  If all inputs in the previous pages are not defined, the user will see the option to exit without saving.  To save and exit, *all* inputs must be properly defined in the proceeding pages.
 
 ## Editting an Existing Model
+To create a new model, select the `Update Robot` menu option on the home page.
