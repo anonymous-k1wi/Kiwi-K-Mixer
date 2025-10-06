@@ -72,11 +72,18 @@ If `Has motor` was selected, the next page will include a prompt to set a transm
 
 If `Has servo` was selected, the following page will include a prompt for the servo transmitter input and the center position of the servo (used for safety switch).  The servo center position defaults to a value of `0`, corresponding to the mid point on the servo.  The values of the center position are limited between `-100` and `100`, corresponding to the mix output.  For the setup menu, values are limited to steps of 5 to reduce scrolling time.  If additional precision is needed, the servo disarm position can be later changed in steps of 1 in the Kiwi-K Mixer editing menu.
 
+<img width="384" height="192" alt="servo_filled" src="https://github.com/user-attachments/assets/e329b5b2-3b65-4e61-a165-627649367fe9" />
 
+<sup> *Servo input setup page (left: no input selected, right: input selected and acknowledged, disarm pos. active)* </sup>
 
 &nbsp;
 
 If either `Has motor` or `Has servo` was selected, the user is required to provide a safety switch input (arming).  The purpose of the switch is to add an additional safety system to protect the user from potential unintentional movement of the robot.  This safety switch immediately overides the weapon motor and servo channels to -100 and the "servo disarm" value, respectively.  The input on this page is limited to switches on the transmitter, and saves the "disarmed" position of the switch (no movement).
+
+<img width="384" height="192" alt="safety_empty" src="https://github.com/user-attachments/assets/efc7df6e-6768-4f0f-ba38-e728f33c18f3" />
+<img width="384" height="192" alt="safety_filled" src="https://github.com/user-attachments/assets/adef8e9d-ba8b-41ba-bb78-00cb33c5f456" />
+
+<sup> *Safety input setup page (left: no switch selected, right: switch selected and acknowledged, in disarm pos.)* </sup>
 
 **The safety switch is not a substitue for a physical weapon lock that prevents movement of spinning parts.  A proper weapon lock and test box should always be used with working with kinetic energy weapons.  You are responsible for your own safety and the safety of those around you.**
 
@@ -86,7 +93,12 @@ The next page prompts the user to input the forward/backward (straightline) and 
 
 &nbsp;
 
-The final page provides an "Exit" button for the setup, which will display a prompt to either save and exit or exit without saving.  If all inputs in the previous pages are not defined, the user will see the option to exit without saving.  To save and exit, *all* inputs must be properly defined in the proceeding pages.
+The final page provides an "Exit" button for the setup, which will display a prompt to either save and exit or exit without saving.  If all inputs in the previous pages are not defined, the user will see the option to exit without saving.  To save and exit, ***all*** inputs must be properly defined in the proceeding pages.
+
+<img width="384" height="192" alt="exit_no_save" src="https://github.com/user-attachments/assets/ea740a9b-ac03-4ae1-9b82-41847c79fe7a" />
+<img width="384" height="192" alt="save_and_exit" src="https://github.com/user-attachments/assets/aefeafa7-34d8-4f4e-99de-d224606e242f" />
+
+<sup> *Exit page (left: fields empty, user can exit without saving, right: all fields filled, user can save and exit)* </sup>
 
 ## Editting an Existing Model
 To edit an existing model, select the `Update Settings` menu option on the home page.
@@ -106,5 +118,5 @@ The editing page contains the following set of options based on some of the most
 * **Steering Speed:**  Numerical variable for the weight of the left/right portion of the mix.  The default value is `30`, as many beginners tend to not weight this variable at all and have a hard time accurately turning (severe oversteer).  If desired, this can be turned up or down.  (If sufficient user feedback determines a better defualt value, this value is subject to change in the future).
 * **Servo Disarm Position:**  If `Has servo` was selected for the model, the disarm position of the servo can be changed here.  If it was not selected for the model, then this line will not appear.
 
+<img width="384" height="192" alt="edit_menu" src="https://github.com/user-attachments/assets/64002fa0-b77e-41a4-af6e-93a0ec4d8980" />
 
-<img width="128" height="64" alt="edit_menu" src="https://github.com/user-attachments/assets/06815239-71f0-471a-8d78-00687c10dc95" />
