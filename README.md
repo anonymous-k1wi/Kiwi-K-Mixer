@@ -84,7 +84,7 @@ If either `Has motor` or `Has servo` was selected, the user is required to provi
 
 <sup> *Safety switch setup page with example input* </sup>
 
-**The safety switch is not a substitue for a physical weapon lock that prevents movement of spinning parts.  A proper weapon lock and test box should always be used with working with kinetic energy weapons.  You are responsible for your own safety and the safety of those around you.**
+**A SAFETY SWITCH IS NOT A SUBSTITUTE FOR A PHYSICAL WEAPON LOCK THAT PREVENTS THE MOVEMENT OF THE ROBOT.  A PROPER WEAPON LOCK AND TEST BOX SHOULD ALWAYS BE USED WHEN WORKING WITH KINETIC ENERGY WEAPONS.  YOU ARE RESPONSIBLE FOR YOUR OWN SAFETY AND THE SAFETY OF THOSE AROUND YOU.**
 
 &nbsp;
 
