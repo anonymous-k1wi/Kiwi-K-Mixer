@@ -136,3 +136,6 @@ The editing page contains the following set of options based on some of the most
 
 <img width="384" height="192" alt="edit_menu" src="https://github.com/user-attachments/assets/64002fa0-b77e-41a4-af6e-93a0ec4d8980" />
 
+<sup> *Sample Kiwi-K Mixer editing page with default values* </sup>
+
+&nbsp;
