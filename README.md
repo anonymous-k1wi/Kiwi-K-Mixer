@@ -59,6 +59,21 @@ If `Has motor` was selected, the next page will include a prompt to set a transm
 
 &nbsp;
 
-If `Has servo` was selected, the following page will include a prompt for the servo transmitter input and the center position of the servo (used for safety switch).  The servo center position defaults to a value of 0, corresponding to the mid point on the servo.  The values of the center position are limited between -100 and 100, corresponding to the mix output.  For the setup menu, values are limited to steps of 5 to reduce scrolling time.  If additional precision is needed, the servo disarm position can be later changed in the Kiwi-K Mixer editing menu.
+If `Has servo` was selected, the following page will include a prompt for the servo transmitter input and the center position of the servo (used for safety switch).  The servo center position defaults to a value of 0, corresponding to the mid point on the servo.  The values of the center position are limited between -100 and 100, corresponding to the mix output.  For the setup menu, values are limited to steps of 5 to reduce scrolling time.  If additional precision is needed, the servo disarm position can be later changed in steps of 1 in the Kiwi-K Mixer editing menu.
+
+&nbsp;
+
+If either `Has motor` or `Has servo` was selected, the user is required to provide a safety switch input (arming).  The purpose of the switch is to add an additional safety system to protect the user from potential unintentional movement of the robot.  This safety switch immediately overides the weapon motor and servo channels to -100 and the "servo disarm" value, respectively.  The input on this page is limited to switches on the transmitter, and saves the "disarmed" position of the switch (no movement).
+
+**The safety switch is not a substitue for a physical weapon lock that prevents movement of spinning parts.  A proper weapon lock and test box should always be used with working with kinetic energy weapons.  You are responsible for your own safety and the safety of those around you.**
+
+&nbsp;
+
+The next page prompts the user to input the forward/backward (straightline) and left/right (turning) transmitter inputs.  If neither `Has motor` or `Has servo` was selected, those pages will be skipped.
+
+&nbsp;
+
+The final page provides an "Exit" button for the setup, which will display a prompt to either save and exit or exit without saving.
+
 
 ## Editting an Existing Model
