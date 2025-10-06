@@ -4,14 +4,14 @@ Kiwi-K Mixer is a Lua script for [EdgeTX](https://edgetx.org/) transmitters desi
 ## Introduction
 Setting a model mix on an EdgeTX transmitter can be a less-than-intuitive process for beginners, and can still be time consuming for experienced users.  Kiwi-K (Quick) Mixer is an attempt to solve this problem utilizing the [Lua](https://www.lua.org/about.html) scripting language built into EdgeTX Transmitters
 
-The Kiwi-K Mixer creates a user interface that prompts the user to provide the channel inputs desired for their mix.  Upon completion, the mix is automatically written to the active EdgeTX model.  After creating the mix, the Kiwi-K mixer has addition feature to allow the user to further tune or edit the robot.  These include inverting the direction of drive motors, inverting the steering, and adjusting the rates of turning and straightline movement. 
+The Kiwi-K Mixer creates a user interface that prompts the user to provide the channel inputs desired for their mix.  Upon completion, the mix is automatically written to the active EdgeTX model.  After creating the mix, the Kiwi-K mixer has addition editting menu to allow the user to further edit or tune the robot.  The editting menu includes controls to invert the direction of drive motors, reverse the steering, and adjust the rates of robot turning and straightline movement.  These editting features are aimed at reducing repair times and improving driving ability.
 
 ## Installing Kiwi-K Mixer
 
 *Kiwi-K Mixer is currently designed to with Black/White EdgeTX controllers only (no color screens).* 
 
 ## Using Kiwi-K Mixer
-The Kiwi-K Mixer can be accessed through the "Tools" menu of your transmitter.  The "Tools" menu can be accessed by long pressing the "Model" key.  On transmitters with a "SYS" key, the "SYS" key can be pressed instead to access the tools menu.
+The Kiwi-K Mixer can be accessed through the "Tools" menu of your transmitter.  The "Tools" menu can be accessed by a long press on the "Model" (MDL) key.  On transmitters with a "System" key, the "System" (SYS) key can be pressed instead to access the tools menu.
 
 
 Use the scroll wheel to navigate the list of tools, and select the "Kiwi-K Mixer" using the enter key.
@@ -55,9 +55,10 @@ Due to limitations of the Kiwi-K Mixer implementation, custom output definitions
 
 &nbsp;
 
+If `Has motor` was selected, the next page will include a prompt to set a transmitter input for the weapon motor.  To begin editing, the "Enter" button on the radio can be pressed.  To select an input, the desired input on the transmitter can be moved, which will automatically load the input into the selection box.  Alternatively, the scroll wheel can be used to manually select an input.  To save the selection, the "Enter" button should be pressed again.
 
+&nbsp;
 
-If `Has motor` was selected, the next
-
+If `Has servo` was selected, the following page will include a prompt for the servo transmitter input and the center position of the servo (used for safety switch).  The servo center position defaults to a value of 0, corresponding to the mid point on the servo.  The values of the center position are limited between -100 and 100, corresponding to the mix output.  For the setup menu, values are limited to steps of 5 to reduce scrolling time.  If additional precision is needed, the servo disarm position can be later changed in the Kiwi-K Mixer editing menu.
 
 ## Editting an Existing Model
