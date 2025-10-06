@@ -105,3 +105,6 @@ The editing page contains the following set of options based on some of the most
 * **Straight Speed:**  Numerical variable for the weight of the forward/backward portion of the mix.  The default value is `100` (maximum).  If this is too fast for your robot, it can be turned down to a desired value.
 * **Steering Speed:**  Numerical variable for the weight of the left/right portion of the mix.  The default value is `30`, as many beginners tend to not weight this variable at all and have a hard time accurately turning (severe oversteer).  If desired, this can be turned up or down.  (If sufficient user feedback determines a better defualt value, this value is subject to change in the future).
 * **Servo Disarm Position:**  If `Has servo` was selected for the model, the disarm position of the servo can be changed here.  If it was not selected for the model, then this line will not appear.
+
+
+<img width="128" height="64" alt="edit_menu" src="https://github.com/user-attachments/assets/06815239-71f0-471a-8d78-00687c10dc95" />
