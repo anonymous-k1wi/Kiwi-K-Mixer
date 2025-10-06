@@ -70,7 +70,7 @@ If `Has motor` was selected, the next page will include a prompt to set a transm
 
 &nbsp;
 
-If `Has servo` was selected, the following page will include a prompt for the servo transmitter input and the center position of the servo (used for safety switch).  The servo center position defaults to a value of `0`, corresponding to the mid point on the servo.  The values of the center position are limited between `-100` and `100`, corresponding to the mix output.  For the setup menu, values are limited to steps of 5 to reduce scrolling time.  If additional precision is needed, the servo disarm position can be later changed in steps of 1 in the Kiwi-K Mixer editing menu.
+If `Has servo` was selected, the following page will include a prompt for the servo transmitter input and the center position of the servo (used for safety switch).  The disarm position of the servo is not able to be edited until the transmitter input channel has been set. The servo center position defaults to a value of `0`, corresponding to the mid point on the servo.  The values of the center position are limited between `-100` and `100`, corresponding to the standard mix output.  For the setup menu, values are limited to steps of 5 to reduce scrolling time.  If additional precision is needed, the servo disarm position can be later changed in steps of 1 in the Kiwi-K Mixer editing menu.
 
 <img width="384" height="192" alt="servo_filled" src="https://github.com/user-attachments/assets/e329b5b2-3b65-4e61-a165-627649367fe9" />
 
