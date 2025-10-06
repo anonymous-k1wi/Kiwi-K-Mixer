@@ -57,15 +57,22 @@ Due to limitations of the Kiwi-K Mixer implementation, custom output definitions
 
 <img width="384" height="192" alt="wiring" src="https://github.com/user-attachments/assets/3ea5aca0-0d79-40f6-929a-e4a01157285c" />
 
-<sup> *Reciever wiring setup page (with both mootor and servo showing)* </sup>
+<sup> *Reciever wiring setup page (with both motor and servo showing)* </sup>
 
 &nbsp;
 
-If `Has motor` was selected, the next page will include a prompt to set a transmitter input for the weapon motor.  To begin editing, the "Enter" button on the radio can be pressed.  To select an input, the desired input on the transmitter can be moved, which will automatically load the input into the selection box.  Alternatively, the scroll wheel can be used to manually select an input.  To save the selection, the "Enter" button should be pressed again.
+If `Has motor` was selected, the next page will include a prompt to set a transmitter input for the weapon motor.  To begin editing, the "Enter" button on the radio can be pressed.  To select an input, the desired input on the transmitter can be moved, which will automatically load the input into the selection box.  Alternatively, the scroll wheel can be used to manually select an input.  Once an input is selected, a small check mark will appear next to the input.  To save the selection, the "Enter" button should be pressed again.
+
+<img width="384" height="192" alt="weapon" src="https://github.com/user-attachments/assets/06c5fac8-1ed4-49c6-8c26-73170ded98b6" />
+<img width="384" height="192" alt="weapon_filled" src="https://github.com/user-attachments/assets/26a7e5d6-ebb7-4961-935a-d82d39a4d8e9" />
+
+<sup> *Weapon input setup page* </sup>
 
 &nbsp;
 
 If `Has servo` was selected, the following page will include a prompt for the servo transmitter input and the center position of the servo (used for safety switch).  The servo center position defaults to a value of `0`, corresponding to the mid point on the servo.  The values of the center position are limited between `-100` and `100`, corresponding to the mix output.  For the setup menu, values are limited to steps of 5 to reduce scrolling time.  If additional precision is needed, the servo disarm position can be later changed in steps of 1 in the Kiwi-K Mixer editing menu.
+
+
 
 &nbsp;
 
