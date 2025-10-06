@@ -53,7 +53,7 @@ The `Has motor` option is intended for robots that have a spinning KE weapon (us
 
 Based on the selected options on the model definition page, the following page will provide a wiring template for the user.  The robot outputs listed should be plugged into the various reciever channels as directed.  If the motor or servo is not selected on the robot definition page, instructions for wiring the motor and server will be omitted to limit confusion.
 
-Due to limitations of the Kiwi-K Mixer implementation, custom output definitions are not supported at this time.  As the script does not store additional information about the model to an external file, it would not be possible for the script to remember a custom reciever wiring for each model.
+Due to limitations of the script implementation, custom output definitions are not supported at this time.  As the script does not store additional information about the model to an external file, it is not be possible for the script to remember a custom reciever wiring for each model.
 
 <img width="384" height="192" alt="wiring" src="https://github.com/user-attachments/assets/3ea5aca0-0d79-40f6-929a-e4a01157285c" />
 
