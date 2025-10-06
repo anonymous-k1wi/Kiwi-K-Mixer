@@ -90,6 +90,11 @@ Kiwi-K Mixer will first warn the user that robots must be set up by the Kiwi-K M
 
 &nbsp;
 
-The editing page contains the following set of options based on some of the most common issues users run into when mixing a robot.  The following options are given.
+The editing page contains the following set of options based on some of the most common issues users run into when mixing a robot.  The following options are given:
 
-* **Invert Left Motor:** This will invert the left motor response.
+* **Invert Left Motor:** This will invert the left motor response.  If speed controller is flipped or the motor is wire soldering is reversed, this option allows the user to reverse the motor without resoldering or reflashing.
+* **Invert Right Motor:** This will invert the right motor response.  If speed controller is flipped or the motor is wire soldering is reversed, this option allows the user to reverse the motor without resoldering or reflashing.
+* **Invert Steering:**
+* **Straight Speed:**
+* **Steering Speed:**
+* **Servo Disarm Position:**
