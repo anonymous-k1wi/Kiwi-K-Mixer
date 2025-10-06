@@ -84,11 +84,11 @@ If either `Has motor` or `Has servo` was selected, the user is required to provi
 
 <sup> *Safety switch setup page with example input* </sup>
 
-**A SAFETY SWITCH IS NOT A SUBSTITUTE FOR A PHYSICAL WEAPON LOCK THAT PREVENTS THE MOVEMENT OF THE ROBOT.  A PROPER WEAPON LOCK AND TEST BOX SHOULD ALWAYS BE USED WHEN WORKING WITH KINETIC ENERGY WEAPONS.  YOU ARE RESPONSIBLE FOR YOUR OWN SAFETY AND THE SAFETY OF THOSE AROUND YOU.**
+**A SAFETY SWITCH IS NOT A SUBSTITUTE FOR A PHYSICAL WEAPON LOCK THAT PREVENTS THE MOVEMENT OF THE ROBOT.  A PROPER WEAPON LOCK AND TEST BOX SHOULD *ALWAYS* BE USED WHEN WORKING WITH KINETIC ENERGY WEAPONS.  YOU ARE RESPONSIBLE FOR YOUR OWN SAFETY AND THE SAFETY OF THOSE AROUND YOU.**
 
 &nbsp;
 
-The next page prompts the user to input the forward/backward (straightline) and left/right (turning) transmitter inputs.  If neither `Has motor` or `Has servo` was selected, those pages will be skipped.
+The next page prompts the user for the forward/backward (straightline) and left/right (turning) transmitter inputs.  If neither `Has motor` or `Has servo` was selected, those pages will be skipped.
 
 <img width="384" height="192" alt="drive_filled" src="https://github.com/user-attachments/assets/ecdaa352-0972-44b8-9a6e-60c9df2844a8" />
 
