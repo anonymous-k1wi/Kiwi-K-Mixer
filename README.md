@@ -92,4 +92,4 @@ Kiwi-K Mixer will first warn the user that robots must be set up by the Kiwi-K M
 
 The editing page contains the following set of options based on some of the most common issues users run into when mixing a robot.  The following options are given.
 
--[] test
+* **Invert Left Motor:** This will invert the left motor response.
