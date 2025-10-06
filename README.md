@@ -119,7 +119,7 @@ To edit an existing model, select the `Update Settings` menu option on the home 
 
 Kiwi-K Mixer will first warn the user that robots must be set up by the Kiwi-K Mixer prior to being edited.  If a robot is not set up with the Kiwi-K Mixer first, it is not gauranteed to work with the editor (due to channel definitions).
 
-<img width="384" height="192" alt="update_settings" src="https://github.com/user-attachments/assets/f137f5f1-d14e-4cdb-8ed4-4a5fe669cebf" />
+<img width="384" height="192" alt="update_warning" src="https://github.com/user-attachments/assets/093bb3ae-a5be-46ee-bf10-58f060803fd8" />
 
 <sup> *User warning for creating new model mix* </sup>
 
