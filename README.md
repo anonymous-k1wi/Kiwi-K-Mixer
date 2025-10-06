@@ -66,7 +66,7 @@ If `Has motor` was selected, the next page will include a prompt to set a transm
 <img width="384" height="192" alt="weapon" src="https://github.com/user-attachments/assets/06c5fac8-1ed4-49c6-8c26-73170ded98b6" />
 <img width="384" height="192" alt="weapon_filled" src="https://github.com/user-attachments/assets/26a7e5d6-ebb7-4961-935a-d82d39a4d8e9" />
 
-<sup> *Weapon input setup page* </sup>
+<sup> *Weapon input setup page (left: no input selected, right: input selected and acknowledged)* </sup>
 
 &nbsp;
 
