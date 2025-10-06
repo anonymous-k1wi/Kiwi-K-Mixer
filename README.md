@@ -13,6 +13,11 @@ The Kiwi-K Mixer creates a user interface that prompts the user to provide the c
 ## Using Kiwi-K Mixer
 The Kiwi-K Mixer can be accessed through the "Tools" menu of your transmitter.  The "Tools" menu can be accessed by a long press on the "Model" (MDL) key.  On transmitters with a "System" key, the "System" (SYS) key can be pressed instead to access the tools menu.
 
+<img width="384" height="192" alt="tools" src="https://github.com/user-attachments/assets/1a67f436-45c0-42de-8343-62964845dc52" />
+
+<sup> *System "Tools" page of EdgeTX* </sup>
+
+&nbsp;
 
 Use the scroll wheel to navigate the list of tools, and select the "Kiwi-K Mixer" using the enter key.
 
@@ -106,9 +111,17 @@ The final page provides an "Exit" button for the setup, which will display a pro
 ## Editting an Existing Model
 To edit an existing model, select the `Update Settings` menu option on the home page.
 
+<img width="384" height="192" alt="update_settings" src="https://github.com/user-attachments/assets/6a0544bd-7783-4ff5-9dca-46c33b4f8284" />
+
+<sup> *Main menu page of the Kiwi-K Mixer Lua script* </sup>
+
 &nbsp;
 
 Kiwi-K Mixer will first warn the user that robots must be set up by the Kiwi-K Mixer prior to being edited.  If a robot is not set up with the Kiwi-K Mixer first, it is not gauranteed to work with the editor (due to channel definitions).
+
+<img width="384" height="192" alt="update_settings" src="https://github.com/user-attachments/assets/f137f5f1-d14e-4cdb-8ed4-4a5fe669cebf" />
+
+<sup> *User warning for creating new model mix* </sup>
 
 &nbsp;
 
