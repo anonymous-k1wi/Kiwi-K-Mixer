@@ -41,9 +41,13 @@ The following page prompts the user to provide information about their robot con
 
 <img width="384" height="192" alt="define_empty" src="https://github.com/user-attachments/assets/792449fc-25f4-447a-85e0-8ea135f34cb6" />
 
+<sup> *Model defintion page* </sup>
+
 The `Has motor` option is intended for robots that have a spinning KE weapon (usually a brushless motor).  If selected, setup pages asking the user to define inputs for a throttle control and arming switch.  The `Has servo` option is intended for flipper/lifter robots that use a servo as their main actuator.  If required for the robot configuration, both options can be selected (i.e. for a hammersaw-style robot).
 
 <img width="384" height="192" alt="define_filled" src="https://github.com/user-attachments/assets/ea5304b1-d384-4297-8859-f843372d666f" />
+
+<sup> *Model definition page with both inputs selected* </sup>
 
 &nbsp;
 
@@ -53,13 +57,15 @@ Due to limitations of the Kiwi-K Mixer implementation, custom output definitions
 
 <img width="384" height="192" alt="wiring" src="https://github.com/user-attachments/assets/3ea5aca0-0d79-40f6-929a-e4a01157285c" />
 
+<sup> *Reciever wiring setup page (with both mootor and servo showing)* </sup>
+
 &nbsp;
 
 If `Has motor` was selected, the next page will include a prompt to set a transmitter input for the weapon motor.  To begin editing, the "Enter" button on the radio can be pressed.  To select an input, the desired input on the transmitter can be moved, which will automatically load the input into the selection box.  Alternatively, the scroll wheel can be used to manually select an input.  To save the selection, the "Enter" button should be pressed again.
 
 &nbsp;
 
-If `Has servo` was selected, the following page will include a prompt for the servo transmitter input and the center position of the servo (used for safety switch).  The servo center position defaults to a value of 0, corresponding to the mid point on the servo.  The values of the center position are limited between -100 and 100, corresponding to the mix output.  For the setup menu, values are limited to steps of 5 to reduce scrolling time.  If additional precision is needed, the servo disarm position can be later changed in steps of 1 in the Kiwi-K Mixer editing menu.
+If `Has servo` was selected, the following page will include a prompt for the servo transmitter input and the center position of the servo (used for safety switch).  The servo center position defaults to a value of `0`, corresponding to the mid point on the servo.  The values of the center position are limited between `-100` and `100`, corresponding to the mix output.  For the setup menu, values are limited to steps of 5 to reduce scrolling time.  If additional precision is needed, the servo disarm position can be later changed in steps of 1 in the Kiwi-K Mixer editing menu.
 
 &nbsp;
 
@@ -76,4 +82,4 @@ The next page prompts the user to input the forward/backward (straightline) and 
 The final page provides an "Exit" button for the setup, which will display a prompt to either save and exit or exit without saving.  If all inputs in the previous pages are not defined, the user will see the option to exit without saving.  To save and exit, *all* inputs must be properly defined in the proceeding pages.
 
 ## Editting an Existing Model
-To create a new model, select the `Update Robot` menu option on the home page.
+To create a new model, select the `Update Settings` menu option on the home page.
