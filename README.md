@@ -8,7 +8,7 @@ The Kiwi-K Mixer creates a user interface that prompts the user to provide the c
 
 ## Installing Kiwi-K Mixer
 
-*Kiwi-K Mixer is currently designed to with Black/White 128x64 EdgeTX controllers only (no color screens).*
+*Currently, Kiwi-K Mixer has been developed and tested on EdgeTX radios with black & white 128x64 LCD displays.  It may work on other radios, but it has not been tested for them.*
 
 To install Kiwi-K Mixer on your radio, click the current release in the GitHub "Releases" section.  From the latest release, download the "KIWIK.zip" file, and unzip the contents.  Copy the contents (the "SCRIPTS" folder) to the root of the SD card on your EdgeTX radio.
 
