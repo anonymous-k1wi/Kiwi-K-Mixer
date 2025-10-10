@@ -6,7 +6,7 @@ Setting a model mix on an EdgeTX transmitter can be a less-than-intuitive proces
 
 The Kiwi-K Mixer creates a user interface that prompts the user to provide the channel inputs desired for their mix.  Upon completion, the mix is automatically written to the active EdgeTX model.  After creating the mix, the Kiwi-K mixer has addition editting menu to allow the user to further edit or tune the robot.  The editting menu includes controls to invert the direction of drive motors, reverse the steering, and adjust the rates of robot turning and straightline movement.  These editting features are aimed at reducing repair times and improving driving ability.
 
-## Installing Kiwi-K Mixer
+## Installation
 
 *Currently, Kiwi-K Mixer has been developed and tested on EdgeTX radios with black & white 128x64 LCD displays.  It may work on other radios, but it has not been tested for them.*
 
