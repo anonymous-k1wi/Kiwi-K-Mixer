@@ -3,6 +3,10 @@ Kiwi-K (Quick) Mixer is a Lua script for [EdgeTX](https://edgetx.org/) transmitt
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lmYSulsui38/0.jpg)](https://www.youtube.com/watch?v=lmYSulsui38)
 
+<sup> *Video Guide to Kiwi-K Mixer* </sup>
+
+&nbsp;
+
 ## Introduction
 Setting a model mix on an EdgeTX transmitter can be a less-than-intuitive process for beginners, and can still be time consuming for experienced users.  Kiwi-K (Quick) Mixer is an attempt to solve this problem utilizing the [Lua](https://www.lua.org/about.html) scripting language built into EdgeTX Transmitters
 
